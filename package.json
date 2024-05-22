@@ -1,0 +1,26 @@
+{
+  "name": "35-hw-react-starwars",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://VladimirRogalev.github.io/starwars",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "bootstrap": "^5.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "6.1.1",
+    "vite": "^5.2.0"
+  }
+}
